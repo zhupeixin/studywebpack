@@ -1,0 +1,21 @@
+{
+  "name": "3-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.108",
+    "awesome-typescript-loader": "^5.0.0",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
