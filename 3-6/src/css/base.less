@@ -1,0 +1,21 @@
+@baseColor : #444444;
+html,body{
+    background: @baseColor;
+}
+
+.box {
+    //composes : bigFont from './common.css';
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    background: aqua;
+    transition: transform 1s;
+}
+
+:root{
+    --mainColor : red;
+}
+
+a{
+    color: var(--mainColor);
+}
